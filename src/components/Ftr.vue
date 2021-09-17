@@ -1,20 +1,22 @@
 <template>
+      <footer>      
       
-      <div>
         <p class="text-white">by Ranjani</p>
-    </div>
-    
+  
+    </footer>
+
 </template>
 
 <script>
     export default {
-       name:'footer', 
+       name:'ftr', 
     }
 </script>
 
 <style>
-p {
-  height:30px;
+footer p {
+  
+  height:fit-content;
   background: black;
 }
 </style>

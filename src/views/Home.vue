@@ -1,12 +1,11 @@
 <template>
-  <div class="home">
+  <div>
      <Flight />
-    
   </div>
 </template>
 
 <script>
-import Flight from '../components/Flight.vue'
+import Flight from '../components/Flight.vue';
 export default {
   components: {
     Flight,

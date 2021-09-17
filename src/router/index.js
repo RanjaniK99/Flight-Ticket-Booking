@@ -8,22 +8,22 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
-    name: 'Home',
-    component: Home
+    path: "/",
+    name: "Home",
+    component: Home,
   },
   {
     path: '/about',
     name: 'About',
-   component:About
+   component:About,
   },
   {
     path: '/reg',
     name: 'Reg',
-   component:Reg
+   component:Reg,
   },
   
-]
+];
 
 const router = new VueRouter({
   mode: 'history',

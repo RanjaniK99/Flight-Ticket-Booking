@@ -6,19 +6,19 @@
       </header>
     </VueScrollFixedNavbar>
      <router-view />
-     <Footer />
-    </div>
+     <footer>
+       <Ftr />
+     </footer>
+        </div>
 </template>
 <script>
 import Navbar from "./components/Navbar.vue";
-import Flight from "./components/Flight.vue";
-import Footer from "./components/Footer.vue";
+import Ftr from "./components/Ftr.vue";
 export default {
   name: "app",
   components: {
     Navbar,
-    Flight,
-    Footer,
+    Ftr,
   },
 };
 </script>
