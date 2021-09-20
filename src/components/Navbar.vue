@@ -74,9 +74,9 @@ nav {
 .nav-link:hover {
   color: orange !important;
 }
-@media (min-width: 340px) and (max-width: 460px) {
+@media (min-width: 300px) and (max-width: 460px) {
   .navbar-brand a{
-    font-size: 25px;
+    font-size: 20px !important;
   }
 }
 </style>
