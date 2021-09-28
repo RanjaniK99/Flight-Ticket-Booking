@@ -30,16 +30,16 @@
 
                         <div id="input2">
                             <input type="number" id="input-group" placeholder="Adult">
-                            <input type="number" id="input-group" placeholder="Children(2-11years)">
-                            <input type="number" id="input-group" placeholder="infant(under 2years)">
+                            <input type="number" id="input-group" placeholder="Children(1-11years)" class="ms-2">
+                            
                         </div>
 
                         <div id="input3">
                             <span id="input-group" class="text-primary">Select Your Fare</span>
-                            <input type="radio" id="input-group" name="r">
-                            <label class="text-white" for="input-group">One Way</label>
-                            <input type="radio" id="input-group" name="r">
-                            <label class="text-white" for="input-group">Round Trip</label>
+                            <input type="radio" id="input-group " name="r" class="rdo">
+                            <label class="text-white way" for="input-group">One Way</label>
+                            <input type="radio" id="input-group " name="r" class="rdo">
+                            <label class="text-white way" for="input-group">Round Trip</label>
                         </div>
 
                         <div id="input4">
@@ -113,8 +113,11 @@ export default {
     background: transparent;
     color: #fff;
   }
-  #input3 #input-group {
-    margin-left: 50px;
+  #input3 .rdo{
+    margin-left: 20px;
+  }
+  #input3 .way{
+    margin-left: 10px;
   }
   #input4 #input-group {
     width: 300px;
@@ -169,25 +172,31 @@ export default {
         
     }
     #input #input-group {
-        width: 160px;
+        width: 140px;
     } 
     #input2 #input-group {
-        width: 105px;
+        width: 130px;
     }   
     #input3 #input-group {
-        margin-left: 10px;
-      }    
+        margin-left: 0px;
+      } 
+       #input3 .rdo{
+    margin-left: 5px;
+  }
+  #input3 .way{
+    margin-left: 2px;
+  }   
       #input4 #input-group {
-        width: 160px;
+        width: 140px;
       }
       #input4 #input-group1 {
-        width: 350px;
+        width: 300px;
       }
       #input6 #input-group {
-        width: 160px;    
+        width: 145px;    
     }
     #input6 #input-group1 {
-        width: 350px;
+        width: 300px;
     }    
     
   }
